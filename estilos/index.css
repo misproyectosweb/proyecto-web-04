@@ -1,0 +1,176 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 28/03/2023, 06:08:42 PM
+    Author     : pcgc7
+*/
+
+:root {
+    --colorAzul: #003958;
+    --colorDorado: #b59a47;
+    --colorBlanco: #fff;
+    --colorWhitesmoke: #f5f5f5;
+    --colorAlabaster: #f2f0e6;
+    --colorSilver: #ccc;
+    --colorRojo: #cc0000;
+}
+.encabezado { background: linear-gradient(to right, var(--colorWhitesmoke) 0%, var(--colorDorado) 100%); }
+.encabezado img { max-width: 40%; }
+.encabezado .py-5 { padding-top: 2rem!important; padding-bottom: 2rem!important; }
+
+.img-fluid.borde { max-width: 30%; }
+.titulos { font-family: 'Bree Serif', serif; }
+.titulos h1 { font-size: 3rem; }
+    
+.txtVision p, .txtVersiculo p { font-family: 'Noto Serif', serif; font-size: 2.75em; line-height: 1.75em; }
+
+.fondo { background-image: url('../imagenes/fondo_1.jpg'); }
+.colorFondo { background: rgba(0,0,0,0.3); }
+
+.bordes { border-top: 0.5em double var(--colorAzul); border-bottom: 0.5em double var(--colorAzul); }
+
+.parallax-seccion-1 { background-image: url('../imagenes/fondoParallax_1.jpg'); background-attachment: fixed; }
+.parallax-seccion-2 { background-image: url('../imagenes/fondoParallax_2.jpg'); background-attachment: fixed; }
+.fondo, .parallax-seccion-1, .parallax-seccion-2 { background-size: cover; background-position: center; background-repeat: no-repeat; }
+
+.carousel-control-next, .carousel-control-prev { top: -7em !important; }
+.flechaPrev, .flechaSig { font-size: 4em; }
+
+.wave { max-width: 100%; position: relative; top: -7em; }
+
+.col-sm-4 h4 { font-size: 1em !important; }
+.col-sm-4 .txtInfo, .barraInfo { font-size: 0.75em; }
+
+.contenedorLoader { background: var(--colorAlabaster); position: fixed; top: 0; left: 0; height: 100%; width: 100%; z-index: 100; transition: all 1.5s; }
+
+/********************* Media queries *********************/
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 1424px y menor que 1648px */
+@media screen and (min-width: 1424px) and (max-width: 1647.98px) {
+    .encabezado img { max-width: 40%; }
+    .encabezado .py-5 { padding-top: 2rem!important; padding-bottom: 2rem!important; }
+    
+    .img-fluid.borde { max-width: 30%; }
+    main .vh-100 { height: 100vh!important; } 
+    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    .titulos h1 { font-size: 3rem; }
+    .txtVision p, .txtVersiculo p { font-size: 2em; }   
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 1200px y menor que 1424px */
+@media screen and (min-width: 1200px) and (max-width: 1423.98px) {
+    .encabezado img { max-width: 30%; }
+    .encabezado .py-5 { padding-top: 2em!important; padding-bottom: 2em!important; }
+    
+    .img-fluid.borde { max-width: 30%; }
+    main .vh-100 { height: 100vh!important; } 
+    main .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    .titulos h1 { font-size: 2.75rem; }
+    .txtVision p, .txtVersiculo p { font-size: 1.75em; }    
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 992px y menor que 1200px */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .encabezado img { max-width: 30%; }
+    .encabezado .py-5 { padding-top: 1.75em!important; padding-bottom: 1.75em!important; }
+    
+    .img-fluid.borde { max-width: 30%; }
+    main .vh-100 { height: 80vh!important; } 
+    main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
+    .titulos h1 { font-size: 2.75em; }
+    .txtVision p, .txtVersiculo p { font-size: 1.5em; }
+    
+    .card { margin-bottom: 1em !important; font-size: 80%; }    
+    main .my-5 { margin-top: 0 !important; margin-bottom: 0.5em !important }
+    
+    .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .flechaPrev, .flechaSig { font-size: 3em; }  
+    
+    .wave { top: -6.5em; }   
+    
+    .list-group-item {
+        padding-left: 1em!important;
+        padding-right: 1em!important;
+    }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 768px y menor que 992px */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .encabezado img { max-width: 30%; }
+    .encabezado .py-5 { padding-top: 1.5em!important; padding-bottom: 1.5em!important; }
+    
+    .img-fluid.borde { max-width: 20%; }
+    main .vh-100 { height: 65vh!important; }
+    main .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
+    .titulos h1 { font-size: 2.5em; }
+    .txtVision p, .txtVersiculo p { font-size: 1.25em; }
+    
+    .card { margin-bottom: 1em !important; font-size: 70%; }    
+    main .my-5 { margin-top: 0 !important; margin-bottom: 0.5em !important }
+    
+    .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .flechaPrev, .flechaSig { font-size: 3em; }
+    
+    .wave { top: -6em; }
+    
+    .contenedorLoader img { width: 20%; }
+}
+
+/* Estilo para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {    
+    .encabezado img { max-width: 30%; }
+    .encabezado .py-5 { padding-top: 1.25em!important; padding-bottom: 1.25em!important; }
+    
+    .img-fluid.borde { max-width: 20%; }
+    main .vh-100 { height: 57vh!important; }
+    main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }
+    .titulos h1 { font-size: 2em; }
+    .txtVision p, .txtVersiculo p { font-size: 1.25em; }
+    
+    .card { margin-bottom: 1em !important; font-size: 70%; }    
+    main .my-5 { margin-top: 0 !important; margin-bottom: 0.5em !important }
+    
+    .carousel-control-next, .carousel-control-prev { top: -3em !important; }
+    .flechaPrev, .flechaSig { font-size: 2em; }
+    
+    .wave { top: -5em; }
+    
+    .col-sm-4 { width: 33%!important; padding-right: 0!important; }
+    .col-sm-4 h4 { font-size: 0.75em !important; }
+    .col-sm-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
+    
+    .contenedorLoader img { width: 20%; }    
+}
+
+/* Estilo para dispositivos con tamaño de pantalla menor que 576px */
+@media screen and (max-width: 575.98px) {
+    .encabezado img { max-width: 30%; }
+    .encabezado .py-5 { padding-top: 1em!important; padding-bottom: 1em!important; }
+    
+    .img-fluid.borde { max-width: 20%; }
+    main .vh-100 { height: 50vh!important; }
+    main .py-5 { padding-top: 0.5em!important; padding-bottom: 0.5em!important; }    
+    .titulos h1 { font-size: 2em; }
+    .txtVision p, .txtVersiculo p { font-size: 1em; }
+    
+    .card { margin-bottom: 1em !important; font-size: 70%; }
+    main .my-5 { margin-top: 0 !important; margin-bottom: 0.5em !important }
+    
+    .carousel-control-next, .carousel-control-prev { top: -2em !important; }
+    .flechaPrev, .flechaSig { font-size: 2em; }
+    
+    .wave { top: -5em; }
+    
+    .col-4 { width: 33%!important; padding-right: 0!important; }
+    .col-4 h4 { font-size: 0.75em !important; }
+    .col-4 .txtInfo, .barraInfo { font-size: 0.55em !important; }
+    .list-group-item {
+        padding-left: 1em!important;
+        padding-right: 1em!important;
+    }
+    
+    .contenedorLoader img { width: 20%; }
+}
