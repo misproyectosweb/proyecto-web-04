@@ -53,7 +53,7 @@ Para ambos formularios se programaron validaciones tanto del lado del cliente, i
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
 ![1  inicio_1](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/5a4b4167-6132-4beb-8c1d-90cc031a8d58)
-**====================================================================================**
+**==========================================================================**
 ![1  inicio_2](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/fb6123d8-8844-442c-9110-db5abb4782b9)
 **==========================================================================**
 ![1  inicio_3](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/df23a7f4-cbe2-4ce8-a615-68771fff43e3)
