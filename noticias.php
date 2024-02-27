@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     </head>
     <body>
+        
         <!-- Encabezado -->
         <header class="sticky-top encabezado">
             <div class="container-fluid">
@@ -39,7 +40,7 @@
                                 <a href="quienessomos.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-church mr-2"></i>Quiénes somos</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-                                <a href="reflexiones.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Reflexiones</a>
+                                <a href="reflexiones.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-book-bible mr-2"></i>Reflexiones</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
                                 <a href="actividades.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Actividades</a>
@@ -60,16 +61,14 @@
         <!-- Sección principaql -->
         <main>
             <div class="imgFondoAzul pt-4">
-                <div class="container bg-white rounded-lg" style="border: 0.25em solid #b59a47">
+                <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                     <div class="row m-2">
-                        <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="bi bi-newspaper mr-2" style="color: #003958;"></i>Noticias</h2>
-                    </div>
-                    
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>
-                    
+                        <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="fa-solid fa-newspaper mr-2" style="color: #003958;"></i>Noticias</h2>
+                    </div>                    
+                    <hr>                    
                     <div class="row">
-                        <h3 class="col-xl-12 text-center my-3">Lo más actual en informaciones del acontecer cristiano nacional y mundial</h3>
-                        <img src="imagenes/borde_3.1.png" class="img-fluid mx-auto d-block my-4" alt=""/>
+                        <h3 class="col-xl-12 text-center my-3">Entérese de lo más actual en informaciones del acontecer cristiano nacional y mundial</h3>
+                        <img src="imagenes/borde_4.png" class="img-fluid mx-auto d-block mb-3 w-50" alt=""/>
                     </div>
                     
 <!--                    <div class="row">
@@ -92,8 +91,8 @@
                     </div>-->
                     
                     <div class="row justify-content-center">
-                        <div class="card p-3 bg-light" style="width: 65rem;">
-                            <img src="imagenes/predicar.jpg" class="card-img-top" alt="...">
+                        <div class="card p-3 bg-light">
+                            <img src="imagenes/predicar.jpg" class="card-img-top" alt="">
                             <h3 class="card-title mt-4 pl-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus</h3>
                             <p class="card-text pl-2">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam vulputate, elit vitae ornare eleifend, leo eros elementum eros, vel cursus tortor lorem eget odio. Pellentesque sollicitudin diam id lacinia pharetra. Donec blandit magna arcu, at luctus purus cursus vitae. Integer interdum viverra laoreet. Praesent sit amet auctor velit. Fusce eleifend libero id rutrum aliquam. Vivamus vulputate ante lectus, a tincidunt dui gravida eu. Phasellus in arcu turpis. Cras eu sem scelerisque, vestibulum purus eu, semper massa. Nullam lacus lectus, faucibus at iaculis non, laoreet sit amet elit.</p>
                             <div class="collapse" id="collapsebutton2">
@@ -110,10 +109,10 @@
                             <a href="#collapsebutton2" class="btnTexto btn btn-primary w-50 my-3" data-toggle="collapse">Mostrar información</a>
                         </div>
                     </div>
-                    <img src="imagenes/borde_3.1.png" class="img-fluid mx-auto d-block my-4" alt=""/>
+                    <img src="imagenes/borde_4.png" class="img-fluid mx-auto d-block my-4 w-50" alt=""/>
                     <div class="row justify-content-center">
-                        <div class="card mb-3 p-3 bg-light" style="width: 65rem;">
-                            <img src="imagenes/lectura.jpg" class="card-img-top" alt="...">
+                        <div class="card mb-3 p-3 bg-light">
+                            <img src="imagenes/lectura.jpg" class="card-img-top" alt="">
                             <h3 class="card-title mt-4 pl-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus</h3>
                             <p class="card-text pl-2">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam vulputate, elit vitae ornare eleifend, leo eros elementum eros, vel cursus tortor lorem eget odio. Pellentesque sollicitudin diam id lacinia pharetra. Donec blandit magna arcu, at luctus purus cursus vitae. Integer interdum viverra laoreet. Praesent sit amet auctor velit. Fusce eleifend libero id rutrum aliquam. Vivamus vulputate ante lectus, a tincidunt dui gravida eu. Phasellus in arcu turpis. Cras eu sem scelerisque, vestibulum purus eu, semper massa. Nullam lacus lectus, faucibus at iaculis non, laoreet sit amet elit.</p>
                             <div class="collapse" id="collapsebutton3">

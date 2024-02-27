@@ -58,10 +58,10 @@
                                 <a href="quienessomos.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-church mr-2"></i>Quiénes somos</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-                                <a href="reflexiones.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Reflexiones</a>
+                                <a href="reflexiones.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-book-bible mr-2"></i>Reflexiones</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-                                <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Noticias</a>
+                                <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-newspaper mr-2"></i>Noticias</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">        
                                 <a href="actividades.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-envelope-open-text mr-2"></i>Actividades</a>
@@ -78,11 +78,11 @@
         <!-- Sección principal -->
         <main>
             <div class="imgFondoAzul pt-4">
-                <div class="container bg-white rounded-lg" style="border: 0.25em solid #b59a47">
+                <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                     <div class="row m-2 d-flex flex-column">
                         <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="fa-solid fa-envelope-open-text mr-2" style="color: #003958;"></i>Contáctenos</h2>                        
                     </div>
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>
+                    <hr>
                     <div class="row mb-3">                                            
                         <div class="col-12 col-lg-12 col-xl-6 col-6 mb-3">
                             <h6 class="mb-0 pb-3"><strong>Si desea hacer una consulta o solicitud de oración, escríbanos:</strong></h6>
@@ -97,7 +97,7 @@
                                 </div>
                                 <div class="form-row p-2">                                                                     
                                     <div class="mb-1 form-group col-12">
-                                        <label for="correo"><strong>Teléfono celular:</strong></label>
+                                        <label for="telefono"><strong>Teléfono celular:</strong></label>
                                         <input type="text" class="form-control" id="telefono" name="telefono" placeholder="88889999" value="" required>
                                         <div class="valid-feedback is-valid">¡OK, válido!</div>
                                         <div class="invalid-feedback is-invalid">Completa el campo</div>
@@ -105,15 +105,15 @@
                                 </div>
                                 <div class="form-row p-2">                                     
                                     <div class="mb-1 form-group col-12">
-                                        <label for="nombre"><strong>Correo:</strong></label>
-                                        <input type="text" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
+                                        <label for="correo"><strong>Correo:</strong></label>
+                                        <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
                                         <div class="valid-feedback is-valid">¡OK, válido!</div>
                                         <div class="invalid-feedback is-invalid">Completa el campo</div>
                                     </div>                                
                                 </div>
                                 <div class="form-row p-2">                                                                     
                                     <div class="mb-1 form-group col-12">
-                                        <label for="correo"><strong>Lugar desde donde nos escribe:</strong></label>
+                                        <label for="direccion"><strong>Lugar desde donde nos escribe:</strong></label>
                                         <input type="text" class="form-control" id="direccion" name="direccion" placeholder="Dirección" value="" required>
                                         <div class="valid-feedback is-valid">¡OK, válido!</div>
                                         <div class="invalid-feedback is-invalid">Completa el campo</div>
@@ -121,7 +121,7 @@
                                 </div>
                                 <div class="form-row p-2">
                                     <div class="mb-1 form-group col-md-12">
-                                        <label for="comentario"><strong>Describe tu solicitud:</strong></label>
+                                        <label for="solicitud"><strong>Describe tu solicitud:</strong></label>
                                         <textarea class="form-control" cols="30" rows="5" id="solicitud" name="solicitud" required></textarea>
                                         <div class="valid-feedback is-valid">¡OK, válido!</div>
                                         <div class="invalid-feedback is-invalid">Favor realice una breve descripción de lo que necesita</div>

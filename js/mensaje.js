@@ -40,7 +40,7 @@ function email(){
         if('exito') {
             Swal.fire({
                 icon: 'success',
-                imageUrl: 'imagenes/LogoIglesiaColor_4.png',        
+                imageUrl: 'imagenes/LogoIglesiaColor.png',        
                 imageAlt: 'logo de la iglesia',
                 imageWidth: 300,
                 imageHeight: 90,
@@ -51,7 +51,7 @@ function email(){
         else {
             Swal.fire({
                 icon: 'error',
-                imageUrl: 'imagenes/LogoIglesiaColor_4.png',        
+                imageUrl: 'imagenes/LogoIglesiaColor.png',        
                 imageAlt: 'logo de la iglesia',
                 imageWidth: 300,
                 imageHeight: 90,

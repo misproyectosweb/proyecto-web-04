@@ -40,7 +40,7 @@
                                 <a href="quienessomos.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-church mr-2"></i>Quiénes somos</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-                                <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Noticias</a>
+                                <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-newspaper mr-2"></i>Noticias</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
                                 <a href="actividades.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Actividades</a>
@@ -61,25 +61,20 @@
         <!-- Sección principaql -->
         <main>            
             <div class="imgFondoAzul pt-4">
-                <div class="container bg-white rounded-lg" style="border: 0.25em solid #b59a47">
+                <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                     <div class="row flex-column m-2">
                         <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="fa-solid fa-book-bible mr-2" style="color: #003958;"></i>Reflexiones:</h2>
-                        <h3 class="mb-0 pt-2 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>                        
+                        <h3 class="mb-0 pt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>                        
                     </div>
-                    
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>
-                        <img src="imagenes/imgSermon.jpg" class="img-fluid img-thumbnail p-2 bg-secondary mx-auto d-block my-4" alt=""/>
-                    <div class="row">
-                        
-                    </div>
-                                        
+                    <hr>                    
+                    <img src="imagenes/imgSermon.jpg" class="img-fluid img-thumbnail p-2 bg-secondary mx-auto d-block my-4" alt=""/>                                        
                     <div class="row m-2 d-flex flex-column">                                                
                         <div class="d-flex flex-colum">                            
                             <div class="px-2 texto">
                                 <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros lorem, <strong>sollicitudin quis lacus vel, imperdiet ornare neque.</strong> Aenean est justo, efficitur non erat et, faucibus cursus nibh. <em><strong>Class aptent taciti sociosqu ad litora torquent per conubia nostra,</strong></em> per inceptos himenaeos. Nam convallis efficitur libero, sed malesuada arcu sodales a. Morbi viverra cursus nunc, vel sodales velit tincidunt a. Vestibulum leo urna, pharetra id mattis eget, lacinia vitae neque. Quisque mollis in ante in condimentum. Mauris vehicula iaculis velit, vel sagittis sem cursus sed. Fusce ultrices felis nec nisl tempor, vel iaculis nisi sodales. Nullam eget pellentesque enim, vitae interdum nunc. Nam odio nisl, suscipit at massa at, pellentesque lobortis felis.</p>
                                 <p class="mb-1">Etiam commodo, mauris at pulvinar sollicitudin, ligula magna rutrum ante, eu commodo nibh risus ut elit. Praesent mollis quam dolor, sit amet efficitur libero convallis eget. Praesent ac ex consequat, imperdiet orci id, imperdiet justo. Maecenas pharetra lacus non consectetur condimentum. Vestibulum bibendum libero iaculis dui faucibus porttitor. Aliquam in finibus orci, eget imperdiet metus. Suspendisse faucibus tortor id neque rutrum consectetur. Vestibulum non sollicitudin ligula.</p>
-                                <blockquote class="blockquote text-center px-5 mx-5 pt-2">
-                                    <p class="mb-0 font-weight-bold">Maecenas pharetra lacus non consectetur condimentum. Vestibulum bibendum libero iaculis dui faucibus porttitor</p>
+                                <blockquote class="blockquote text-center p-5 m-5 bg-light">
+                                    <p class="mb-3 font-weight-bold"><em>"Maecenas pharetra lacus non consectetur condimentum. Vestibulum bibendum libero iaculis dui faucibus porttitor"</em></p>
                                     <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                                 </blockquote>   
                                 
@@ -91,8 +86,8 @@
                                     <li>Praesent ac ex consequat, imperdiet orci id, imperdiet justo</li>
                                 </ul>
                                 <p class="mb-1">Etiam commodo, mauris at pulvinar sollicitudin, ligula magna rutrum ante, eu commodo nibh risus ut elit. Praesent mollis quam dolor, sit amet efficitur libero convallis eget. Praesent ac ex consequat, imperdiet orci id, imperdiet justo. Maecenas pharetra lacus non consectetur condimentum. Vestibulum bibendum libero iaculis dui faucibus porttitor. Aliquam in finibus orci, eget imperdiet metus. Suspendisse faucibus tortor id neque rutrum consectetur. Vestibulum non sollicitudin ligula.</p>
-                                <div class="textoGrande">
-                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros lorem, sollicitudin quis lacus vel..."</p>
+                                <div class="textoGrande p-3 mt-2 mr-3 float-left">
+                                    <p class="mb-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros lorem, sollicitudin quis lacus vel..."</p>
                                 </div>
                                 <p class="mb-1">Aenean ex turpis, laoreet ut leo quis, luctus dictum massa. Quisque a velit consequat, venenatis ipsum non, dictum eros. Curabitur eu ultrices quam. Vestibulum eu tortor vestibulum, aliquam odio a, laoreet sapien. Vestibulum egestas vulputate nisl, non rutrum tellus tempus a. Cras quis nulla sit amet elit posuere pulvinar. Nullam vehicula tortor ac congue blandit. Mauris et risus urna. Sed hendrerit id risus eu condimentum. Donec tempus iaculis nisi, sed porttitor justo luctus ut. Nulla dignissim leo id justo venenatis facilisis. Vivamus luctus metus vel porta tincidunt. Maecenas molestie, felis rutrum commodo convallis, neque dui mollis felis, scelerisque ornare ipsum lectus nec risus.</p>
                                 <h6 class="my-3 font-weight-bold text-uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h6>
@@ -104,7 +99,7 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
             
             <!-- Botón para retornar al principio del documento -->
             <div class="btnContenedor">

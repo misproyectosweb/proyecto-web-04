@@ -40,10 +40,10 @@
                                 <a href="quienessomos.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-church mr-2"></i>Quiénes somos</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-                                <a href="reflexiones.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Reflexiones</a>
+                                <a href="reflexiones.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-book-bible mr-2"></i>Reflexiones</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-                                <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-regular fa-calendar-check mr-2"></i>Noticias</a>
+                                <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-newspaper mr-2"></i>Noticias</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
         <!--                        <a href="contacto_1.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-envelope-open-text mr-2"></i>Contacto</a>-->
@@ -58,17 +58,17 @@
             </div>
         </header>
 
-        <!-- Sección principaql -->
+        <!-- Sección principal -->
         <main>
             <div class="imgFondoAzul pt-4">
-                <div class="container bg-white rounded-lg" style="border: 0.25em solid #b59a47">
+                <div class="container bg-white rounded-lg contenido" style="border: 0.125em solid #b59a47">
                     <div class="row m-2">
                         <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="fa-regular fa-calendar-check mr-2" style="color: #003958;"></i>Actividades</h2>                        
                     </div>
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>
+                    <hr>
                     <div class="row">
                         <h3 class="col-xl-12 mb-3">Cultos dominicales:</h3>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">1</div>
@@ -82,7 +82,7 @@
                                 </div>
                             </div>                            
                         </div>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">
+                        <div class="texto col-12 col-lg-6 col-xl-6">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">7</div>
@@ -99,7 +99,7 @@
                     </div>
                     <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">14</div>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>                            
                         </div>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">
+                        <div class="texto col-12 col-lg-6 col-xl-6">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">21</div>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">28</div>
@@ -144,7 +144,7 @@
                                 </div>
                             </div>                            
                         </div>
-<!--                        <div class="col-12 col-lg-6 col-xl-6 mt-3">
+<!--                        <div class="texto col-12 col-lg-6 col-xl-6">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia"></div>
@@ -159,13 +159,13 @@
                             </div>
                         </div>    -->
                     </div>
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>                                                            
+                    <hr>                                                      
                     <div class="row">
                         <h3 class="col-xl-12 mb-3">Reuniones de oración:</h3>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">4</div>
+                                    <div class="dia">1</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -176,10 +176,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">
+                        <div class="texto col-12 col-lg-6 col-xl-6">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">11</div>
+                                    <div class="dia">7</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -193,10 +193,10 @@
                     </div>
                     <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">18</div>
+                                    <div class="dia">14</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -207,10 +207,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">
+                        <div class="texto col-12 col-lg-6 col-xl-6">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">25</div>
+                                    <div class="dia">21</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -224,10 +224,10 @@
                     </div>                    
                     <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">31</div>
+                                    <div class="dia">28</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="col-12 col-lg-6 col-xl-6 mt-3">
+<!--                        <div class="texto col-12 col-lg-6 col-xl-6">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia"></div>
@@ -253,13 +253,13 @@
                             </div>
                         </div>-->
                     </div>                    
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>   
+                    <hr> 
                     <div class="row">
                         <h3 class="col-xl-12 mb-3">Estudios bíblicos:</h3>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">3</div>
+                                    <div class="dia">1</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -270,10 +270,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">10</div>
+                                    <div class="dia">7</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -287,10 +287,10 @@
                     </div>
                     <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">17</div>
+                                    <div class="dia">14</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -301,10 +301,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">24</div>
+                                    <div class="dia">21</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -317,11 +317,11 @@
                         </div>                                                
                     </div>
                     <div class="my-3 border border-dark-50"></div>                                                            
-                    <div class="row">                        
-                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+                    <div class="row">                     
+                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
-                                    <div class="dia">30</div>
+                                    <div class="dia">28</div>
                                     <div class="mes" id="mes"></div>
                                 </div>
                                 <div class="col-2 px-0 text-center">
@@ -332,7 +332,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="col-12 col-lg-6 col-xl-6 mt-3">                            
+<!--                        <div class="texto col-12 col-lg-6 col-xl-6">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia"></div>
@@ -347,10 +347,10 @@
                             </div>
                         </div>                                                -->
                     </div>
-                    <div class="my-3" style="border: 0.125em solid #b59a47"></div>                                                                                                                           
+                    <hr>                                                                                                                         
                     <div class="row">
                         <h3 class="col-xl-12 mb-3">Otras actividades:</h3>
-                        <div class="col-12 col-lg-4 col-xl-4 mb-3">                            
+                        <div class="texto col-12 col-lg-4 col-xl-4 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">15</div>
@@ -371,13 +371,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-xl-4 mb-2 d-flex align-items-center">
-                            <img src="imagenes/imgActividad_1.jpg" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#actividad_1" style="background-color: #b59a47" alt=""/>
+                        
+                        <div class="d-flex flex-row">                                                    
+                            <div class="my-3 ml-3 mr-2">
+                                <img src="imagenes/imgActividad_1.jpg" class="img-fluid img-thumbnail mx-auto d-block" data-toggle="modal" data-target="#actividad_1" style="background-color: #b59a47" alt=""/>
+                            </div>
+                            <div class="my-3 ml-2 mr-3">
+                                <img src="imagenes/imgActividad_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" data-toggle="modal" data-target="#actividad_2" style="background-color: #b59a47" alt=""/>
+                            </div>
                         </div>
-                        <div class="col-12 col-lg-4 col-xl-4 mb-2 d-flex align-items-center">
-                            <img src="imagenes/imgActividad_2.jpg" class="img-fluid img-thumbnail" data-toggle="modal" data-target="#actividad_2" style="background-color: #b59a47" alt=""/>
-                        </div>
-
+                                  
                         <div class="modal" id="actividad_1" tabindex="-1" aria-labelledby="" aria-hidden="true">
                             <div class="modal-dialog modal-xl">
                                 <div class="modal-content">

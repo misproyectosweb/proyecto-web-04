@@ -20,34 +20,35 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     </head>
     <body>
+        
         <!-- Encabezado -->
-        <header>
+        <header class="encabezado">
             <div class="container-fluid">
-                <div class="row encabezado border-bottom border-dark">
-                    <img src="imagenes/LogoIglesiaColor.png" class="img-fluid py-5 pl-2" alt="Logo de la iglesia"/>
+                <div class="row justify-content-between align-items-center">
+                    <div class="p-4">
+                        <a class="navbar-brand" href="#"><img src="imagenes/LogoIglesiaColor.png" class="img-fluid" alt="Logo de la iglesia"/></a>
+                    </div>                                        
                 </div>
             </div>
         </header>
 
         <!-- Inicio sección principal -->
         <main>
+            
+            <!--  ***** Imagen de fondo ***** -->
             <div class="fondo vh-100 w-100">
-                <div class="colorFondo vh-100">                                    
-                    <div class="container-fluid pt-5">                        
-                        <div class="row d-flex flex-column">
-                            <div class="d-flex flex-row justify-content-center titulos">
-                                <img src="imagenes/borde_2.3.png" class="img-fluid borde mr-3" alt="imagen decorativa"/>
-                                <h1 class="text-uppercase display-4 text-white">bienvenidos</h1>
-                                <img src="imagenes/borde_2.6.png" class="img-fluid borde ml-3" alt="imagen decorativa"/>
+                <div class="colorFondo vh-100">
+                    <div class="container">
+                        <div class="row justify-content-center"> 
+                            <div class="d-flex flex-row justify-content-center pt-5">
+                                <img src="imagenes/borde_1.png" class="img-fluid w-25 mr-3" alt="imagen decorativa"/>
+                                <h1 class="text-uppercase display-3 text-white titulos">bienvenidos</h1>
+                                <img src="imagenes/borde_2.png" class="img-fluid w-25 ml-3" alt="imagen decorativa"/>   
+                            </div>                            
+                            <div class="txtVision py-5 my-5">
+                                <p class="mb-0 text-white text-center font-weight-bold">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
                             </div>
-                        </div>
-                        <div class="row justify-content-center py-5">
-                            <div class="txtVision">
-                                <p class="mb-0 text-white font-weight-bold">"Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit, sed do eiusmod incididunt<br>tempor ut labore et dolore magna<br>aliqua. Ut enim ad minim veniam"</p>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <img src="imagenes/borde_4.3.png" class="img-fluid borde" alt=""/>                            
+                            <img src="imagenes/borde_3.png" class="img-fluid w-25" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -78,7 +79,7 @@
                     </div>
                     <div class="col-6 col-sm-6 col-md-3 col-lg-3" style="max-width: 20rem;">
                         <div class="card text-center rounded-lg" style="border: 0.125em solid #003958;">
-                            <div class="card-header" style="font-size: 3em;"><i class="fa-solid fa-book-bible" style="color: #003958;"></i></div>
+                            <div class="card-header" style="font-size: 3em;"><i class="fa-solid fa-newspaper" style="color: #003958;"></i></div>
                             <div class="card-body">
                                 <h5 class="card-title">Noticias</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -106,7 +107,7 @@
                                 <a href="contacto_2.php" class="btn btn-outline-primary btn-lg btn-block font-weight-bold"><small><strong>Ver más</strong></small></a>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
             <!--  ***** Fin sección menú de navegación ***** -->
@@ -122,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
             </div>
             <!--  ***** Fin sección versículo ***** -->
 
@@ -175,11 +176,11 @@
                 <div class="wave">
                     <div style="height: 150px; overflow: hidden;">
                         <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
-                        <path d="M0.00,49.98 C153.21,138.66 349.20,-49.98 500.84,15.30 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #003958;"></path>
+                            <path d="M0.00,49.98 C153.21,138.66 349.20,-49.98 500.84,15.30 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #003958;"></path>
                         </svg>
                     </div>
                 </div>
-            </div> 
+            </div>
         </main>
         <!-- Fin sección principal -->
 
@@ -192,7 +193,7 @@
                     <div class="d-none d-lg-block col-sm-3 col-md-3 col-lg-3 col-xl-3">
                         <img src="imagenes/LogoIglesiaBlanco.png" class="img-fluid w-50 mx-auto d-block" alt="Logo iglesia"/>
                     </div>
-
+                                                            
                     <!-- Columna con enlaces de Quiénes Somos -->
                     <div class="col-4 col-sm-4 col-md-4 col-lg-3 col-xl-3">
                         <h4 class="my-3 ml-3" style="color: #b59a47;">Conozca nuestra iglesia:</h4>
