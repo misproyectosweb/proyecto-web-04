@@ -64,9 +64,9 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![1  inicio_6](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/b8ae5df9-ae9d-4e85-8076-401eaa97ba14)
 **==========================================================================**
-![02  quienessomos_1](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/3ceb46b3-9f3c-40cd-8cc8-cb28395172cb)
+
 **==========================================================================**
-![02  quienessomos_2](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/2ac887c1-a16a-48b2-820e-b10526e49440)
+
 **==========================================================================**
 ![02  quienessomos_3](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/328aad17-3f1d-40a9-8600-bd1f920be3fa)
 **==========================================================================**
