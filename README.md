@@ -8,7 +8,7 @@ Sitio web creado con las siguientes herramientas a nivel de front-end y back-end
 - **Bootstrap:**	Herramienta utilizada para complementar las hojas de estilo CSS y personalizar la apariencia del sitio
 - **JavaScript:** 	Añade características que permite agregar e implementar acciones interactivas al sitio web
 - **PHP:** 	Favorece la conexión entre el servidor, base de datos con la interfaz de usuario del sitio web
-- **PHP** Mailer:	Es una clase que trata de facilitar la funcionalidades asociadas a los envíos y manejos de emails
+- **PHP Mailer:**	Es una clase que trata de facilitar la funcionalidades asociadas a los envíos y manejos de emails
 - **SweetAlert2:**	Es una forma personalizada de mostrar alertas en un sitio web
 - **MySQL:**	Gestor de bases de datos para almacenar los datos del usuario después de completar el formulario
 
@@ -52,17 +52,17 @@ Para ambos formularios se programaron validaciones tanto del lado del cliente, i
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
-![1  inicio_1](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/1f677e8f-42ea-4356-9bba-62d064eb8b0c)
+![1  inicio_01](https://github.com/user-attachments/assets/6be0f756-ef76-4638-b1e0-55e217e983b0)
 **==========================================================================**
-![1  inicio_2](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/21c8093a-8047-47a8-b3f8-78a18b84b68b)
+![1  inicio_02](https://github.com/user-attachments/assets/7dc0ff89-3fd0-435d-a7fd-27c854d04a06)
 **==========================================================================**
-![1  inicio_3](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/291fe74f-8742-42e6-932a-70b847105909)
+![1  inicio_03](https://github.com/user-attachments/assets/b82a77ed-848a-4131-b7bb-5f51eb8d6f2b)
 **==========================================================================**
-![1  inicio_4](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/9de9a059-df18-4689-be51-2117647e6624)
+![1  inicio_04](https://github.com/user-attachments/assets/48c4b150-03e2-452e-b771-c0909b70c205)
 **==========================================================================**
-![1  inicio_5](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/89461845-61ff-48d3-9a75-3ef9c52f718a)
+![1  inicio_05](https://github.com/user-attachments/assets/5b1821e0-3a8a-43bf-a024-560d06d9090e)
 **==========================================================================**
-![1  inicio_6](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/b8ae5df9-ae9d-4e85-8076-401eaa97ba14)
+![1  inicio_06](https://github.com/user-attachments/assets/9228bb7c-8166-40d6-8e2f-742b06e1ac46)
 **==========================================================================**
 ![02  quienessomos_1](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/fac942ea-3d8c-4791-98b2-aaefff116e29)
 **==========================================================================**
