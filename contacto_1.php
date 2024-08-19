@@ -83,7 +83,7 @@
                         <h2 class="mb-0 pt-4 font-weight-bold" style="color: #003f6f"><i class="fa-solid fa-envelope-open-text mr-2" style="color: #003958;"></i>Contáctenos</h2>                        
                     </div>
                     <hr>
-                    <div class="row mb-3">                                            
+                    <div class="row mb-3">
                         <div class="col-12 col-lg-12 col-xl-6 col-6 mb-3">
                             <h6 class="mb-0 pb-3"><strong>Si desea hacer una consulta o solicitud de oración, escríbanos:</strong></h6>
                             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" id="formulario" class="frmContacto needs-validation border border-dark-50 rounded-lg" novalidate style="background-color: #eee">
@@ -106,7 +106,7 @@
                                 <div class="form-row p-2">                                     
                                     <div class="mb-1 form-group col-12">
                                         <label for="correo"><strong>Correo:</strong></label>
-                                        <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
+                                        <input type="text" class="form-control" id="correo" name="correo" placeholder="Correo electrónico" value="" required>
                                         <div class="valid-feedback is-valid">¡OK, válido!</div>
                                         <div class="invalid-feedback is-invalid">Completa el campo</div>
                                     </div>                                
@@ -143,10 +143,11 @@
                                 ?>
                             </form>
                         </div>
+                        
                         <div class="col-12 col-lg-12 col-xl-6 col-6">
                             <h6 class="mb-0 pb-3"><strong>¿Dónde estamos? Si desea visitarnos utilice este mapa como su guía</strong></h6>
                             <div class="border border-dark-50 rounded-lg p-2 mx-auto d-block mb-3">                                
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15718.176077541753!2d-84.0484498!3d9.9718428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1656800937686!5m2!1ses-419!2scr" class="border-0" width="510" height="490" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15718.176077541753!2d-84.0484498!3d9.9718428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1656800937686!5m2!1ses-419!2scr" class="border-0" width="510" height="490" allowfullscreen=""></iframe>
                             </div>
                             <div class="p-3 border border-dark-50 rounded-lg" style="background-color: #eee">
                                 <h6 class="mb-0 pb-3"><strong>Datos de contacto:</strong></h6>

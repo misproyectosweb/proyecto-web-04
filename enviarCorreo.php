@@ -26,7 +26,7 @@
         
         try {
             // Configuración del servidor
-            // $mail->SMTPDebug = 3;                                         // Habilita la salida de depuración detallada - valor 0 para deshabilitar        
+            // $mail->SMTPDebug = 3;                                        // Habilita la salida de depuración detallada - valor 0 para deshabilitar        
             $mail->isSMTP();                                                // Enviar mensajes de correo usando SMTP
             $mail->Host = 'smtp.gmail.com';                                 // Se establece y configure el servidor SMTP para enviar los mensajes
             $mail->SMTPAuth = true;                                         // Se habilita la autenticación SMTP

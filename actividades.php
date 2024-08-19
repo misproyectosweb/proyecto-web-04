@@ -46,8 +46,8 @@
                                 <a href="noticias.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-newspaper mr-2"></i>Noticias</a>
                             </li>
                             <li class="nav-item mx-5" role="presentation">
-        <!--                        <a href="contacto_1.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-envelope-open-text mr-2"></i>Contacto</a>-->
-                                <a href="contacto_2.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-envelope-open-text mr-2"></i>Contacto</a>
+                                <a href="contacto_1.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-envelope-open-text mr-2"></i>Contacto</a>
+<!--                                <a href="contacto_2.php" class="nav-link text-body text-decoration-none"><i class="fa-solid fa-envelope-open-text mr-2"></i>Contacto</a>-->
                             </li>                                                
                             <li class="nav-item mx-5" role="presentation">
                                 <a href="index.php" class="nav-link text-body text-decoration-none"><i class="bi bi-arrow-right-square mr-2"></i>Salir</a>
@@ -67,8 +67,10 @@
                     </div>
                     <hr>
                     <div class="row">
-                        <h3 class="col-xl-12 mb-3">Cultos dominicales:</h3>
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <h3 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">Cultos dominicales:</h3>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">1</div>
@@ -82,7 +84,7 @@
                                 </div>
                             </div>                            
                         </div>
-                        <div class="texto col-12 col-lg-6 col-xl-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">7</div>
@@ -97,9 +99,8 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">14</div>
@@ -113,7 +114,7 @@
                                 </div>
                             </div>                            
                         </div>
-                        <div class="texto col-12 col-lg-6 col-xl-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">21</div>
@@ -128,9 +129,8 @@
                             </div>
                         </div>    
                     </div>
-                    <div class="my-3 border border-dark-50"></div>
                     <div class="row">                        
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">28</div>
@@ -144,7 +144,7 @@
                                 </div>
                             </div>                            
                         </div>
-<!--                        <div class="texto col-12 col-lg-6 col-xl-6">
+<!--                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia"></div>
@@ -159,10 +159,12 @@
                             </div>
                         </div>    -->
                     </div>
-                    <hr>                                                      
+                    <hr>
                     <div class="row">
-                        <h3 class="col-xl-12 mb-3">Reuniones de oración:</h3>
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <h3 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">Reuniones de oración:</h3>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">1</div>
@@ -176,7 +178,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="texto col-12 col-lg-6 col-xl-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">7</div>
@@ -190,10 +192,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="my-3 border border-dark-50"></div>
+                    </div>                    
                     <div class="row">                        
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">14</div>
@@ -207,7 +208,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="texto col-12 col-lg-6 col-xl-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">21</div>
@@ -221,10 +222,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                    
-                    <div class="my-3 border border-dark-50"></div>
+                    </div>                                        
                     <div class="row">                        
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">28</div>
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="texto col-12 col-lg-6 col-xl-6">
+<!--                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia"></div>
@@ -253,10 +253,12 @@
                             </div>
                         </div>-->
                     </div>                    
-                    <hr> 
+                    <hr>
                     <div class="row">
-                        <h3 class="col-xl-12 mb-3">Estudios bíblicos:</h3>
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <h3 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">Estudios bíblicos:</h3>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">1</div>
@@ -270,7 +272,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">7</div>
@@ -284,10 +286,9 @@
                                 </div>
                             </div>
                         </div>                                                
-                    </div>
-                    <div class="my-3 border border-dark-50"></div>
+                    </div>                    
                     <div class="row">                        
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">14</div>
@@ -301,7 +302,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">21</div>
@@ -315,10 +316,9 @@
                                 </div>
                             </div>
                         </div>                                                
-                    </div>
-                    <div class="my-3 border border-dark-50"></div>                                                            
-                    <div class="row">                     
-                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+                    </div>                                                                               
+                    <div class="row">                        
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">28</div>
@@ -332,7 +332,7 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="texto col-12 col-lg-6 col-xl-6">                            
+<!--                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia"></div>
@@ -347,10 +347,12 @@
                             </div>
                         </div>                                                -->
                     </div>
-                    <hr>                                                                                                                         
+                    <hr>
                     <div class="row">
-                        <h3 class="col-xl-12 mb-3">Otras actividades:</h3>
-                        <div class="texto col-12 col-lg-4 col-xl-4 mb-3">                            
+                        <h3 class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-3">Otras actividades:</h3>
+                    </div>
+                    <div class="row">                        
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">                            
                             <div class="d-flex flex-row align-items-center">
                                 <div class="col-2 px-0 d-flex flex-column text-center">
                                     <div class="dia">15</div>
@@ -380,8 +382,8 @@
                                 <img src="imagenes/imgActividad_2.jpg" class="img-fluid img-thumbnail mx-auto d-block" data-toggle="modal" data-target="#actividad_2" style="background-color: #b59a47" alt=""/>
                             </div>
                         </div>
-                                  
-                        <div class="modal" id="actividad_1" tabindex="-1" aria-labelledby="" aria-hidden="true">
+                                                
+                        <div class="modal fade" id="actividad_1" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog modal-xl">
                                 <div class="modal-content">
                                     <div class="modal-header align-items-center"> 
@@ -401,7 +403,7 @@
                             </div>
                         </div>
                         
-                        <div class="modal" id="actividad_2" tabindex="-1" aria-labelledby="" aria-hidden="true">
+                        <div class="modal fade" id="actividad_2" tabindex="-1" aria-hidden="true">
                             <div class="modal-dialog modal-xl">
                                 <div class="modal-content">
                                     <div class="modal-header align-items-center"> 
@@ -422,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
