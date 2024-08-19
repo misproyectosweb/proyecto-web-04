@@ -100,17 +100,17 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![05  Actividades_4](https://github.com/user-attachments/assets/69112fad-e699-4da3-b738-04a2e1e360bd)
 **==========================================================================**
-![6  contacto_1](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/fde8f80d-efb8-45d0-8f56-0fc4929b196c)
+![6  contacto_1](https://github.com/user-attachments/assets/f1b5293a-a8e1-4a27-8a78-3f84e1ab14a5)
 **==========================================================================**
-![6  contacto_2](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/a98eff68-7040-4410-a759-d26844680ea3)
+![6  contacto_2](https://github.com/user-attachments/assets/3b301ebb-1812-444b-af72-299654e6b0a1)
 **==========================================================================**
-![6  contacto_3](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/101bc19c-53c3-4755-8e1f-764ea7a3708d)
+![6  contacto_3](https://github.com/user-attachments/assets/a96537b0-1912-4a2b-a6e0-d989792138ed)
 **==========================================================================**
-![6  contacto_4](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/7b914597-ade5-4cde-adaf-fb1d7ba68daa)
+![6  contacto_4](https://github.com/user-attachments/assets/27852c34-0720-4e2f-b3ae-3574a928f4db)
 **==========================================================================**
-![6  contacto_5](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/f5586670-b783-407c-ad34-7e7e2e46aaa1)
+![6  contacto_5](https://github.com/user-attachments/assets/18245f4d-f4ac-48ad-994f-79764c35c818)
 **==========================================================================**
-![6  contacto_6](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/bac733ad-2bd5-45c5-9b4f-d0e79ff3f55f)
+![6  contacto_6](https://github.com/user-attachments/assets/224e4282-24b0-463a-bd14-67641a00fc20)
 **==========================================================================**
 ![6  contacto_7](https://github.com/misproyectosweb/proyecto-web-04/assets/98922137/6d3a5210-0bd8-48a2-97ff-ca60ab0708ab)
 **==========================================================================**
